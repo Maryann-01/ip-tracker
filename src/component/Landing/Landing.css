@@ -1,0 +1,50 @@
+.home{
+    display:flex;
+    background: url("../../images/pattern-bg-desktop.png");
+    width:100vw;
+    flex-direction: column;
+    align-items: center;
+}
+.sect-one{
+    display:flex;
+    flex-direction: column;
+    padding:20px 60px 70px;
+    gap:2vh;
+    align-items: center;
+}
+.form{
+    display:flex;
+    gap:0;
+    margin-bottom:10px;
+}
+.form input{
+    padding:1em;
+    width:30em;
+    border-radius:10px 0px 0px 10px;
+    background-color: #ffffff;
+    outline:none;
+    border:none;
+    
+}
+.form button{
+    border-radius:0px 10px 10px 0px;
+    padding:1em;
+    background-color: #000000;
+    border:none;
+    outline:none;
+}
+.sect-two{
+    display:flex;
+  gap:90px;
+  padding:30px;
+  height:7vw;
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: 0 0.2px #000000;
+  position:absolute;
+  top:130px;
+}
+.sect-two div:nth-of-type(n+2){
+    border-left:1px solid grey;
+    padding:0 1rem;
+}
